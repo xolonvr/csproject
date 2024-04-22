@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+
+.block {
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    border-radius: 5%;
+}
+
+.field {
+    width: 90%;
+    padding: 10px;
+}
+
+.pw {
+    width: 90%;
+    padding: 10px;
+}
+
+.button {
+    background-color: mediumturquoise;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: mediumaquamarine;
+}
+
+.msg {
+  border: 2px solid #ffa908;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}

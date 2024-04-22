@@ -1,0 +1,158 @@
+.block {
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.61);
+    width: 700px;
+    border-radius: 5%;
+}
+
+.field {
+    width: 90%;
+    padding: 10px;
+}
+
+.pw {
+    width: 90%;
+    padding: 10px;
+}
+
+.button {
+    background-color: mediumturquoise;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: mediumaquamarine;
+}
+
+.line {
+    width: 100%;
+}
+
+.welcoming {
+    width: 100%;
+    background-image: url("img/cs.jpg");
+    color: white;
+    display: flex;
+    position: relative;
+    margin-bottom: 400px;
+}
+
+.wel {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 100px;;
+    position: absolute;
+    color: white;
+    z-index: 1;
+}
+
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.start {
+    justify-content: flex-end;
+}
+
+.b {
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 30%;
+    height: 600px;
+    margin: 0.5%;
+    display: inline-block;
+    border-radius: 5%;
+    vertical-align: top;
+    position: relative;
+}
+
+.b img {
+    width: 100%;
+    height: 300px;
+}
+
+/* Стили для заголовков */
+.b h3 {
+    border-radius: 2%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(74, 119, 234);
+}
+
+/* Стили для текста */
+.b p {
+    margin: 5px;
+}
+
+.b .tag {
+    color: #969696;
+    text-align: right;
+    width: 100%;
+    background-color: rgba(96, 137, 241, 0.533);
+    margin: 4px;
+    border: 4px solid rgba(96, 137, 241, 0.533);
+}
+
+.read-more {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color:  rgb(74, 119, 234);/* Задаем цвет фона */
+    color: white; /* Задаем цвет текста */
+    border: none; /* Убираем границу */
+    padding: 10px 20px; /* Задаем отступы */
+    text-align: center; /* Выравниваем текст по центру */
+    text-decoration: none; /* Убираем подчеркивание */
+    display: inline-block; /* Размещаем кнопку в ряд с другими элементами */
+    font-size: 16px; /* Задаем размер текста */
+    cursor: pointer; /* Изменяем курсор при наведении */
+    border-radius: 5px; /* Закругляем углы кнопки */
+    transition: background-color 0.3s ease; /* Плавное изменение цвета фона при наведении */
+}
+
+.read-more a {
+    text-decoration: none;
+    color: white;
+}
+
+.read-more:hover {
+    background-color: rgb(65, 103, 200); /* Изменяем цвет фона при наведении */
+}
+
+.content {
+    margin: 100px;
+}
+
+.py {
+    margin-left: 100px;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backdrop-filter: blur(5px);
+}
+
+
