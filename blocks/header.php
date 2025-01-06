@@ -13,9 +13,9 @@
 
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li><a href="index.php" class="nav-link px-2 link-secondary">Home</a></li>
-      <li><a href="#" class="nav-link px-2">Learning Objectives</a></li>
       <li><a href="quiz.php" class="nav-link px-2">Quiz</a></li>
-      <li><a href="#" class="nav-link px-2">About</a></li>
+      <li><a href="userguide.pdf" target="_blank" class="nav-link px-2">User Guide</a></li>
+      <li><a href="about.php" class="nav-link px-2">About</a></li>
     </ul>
 
     <div class="col-md-3 text-end">

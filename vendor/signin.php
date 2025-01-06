@@ -21,6 +21,7 @@
     $_SESSION['user'] = [
       "uid" => $user['uid'],
       "username" => $user['username'],
+      "root" => $user['root'],
       "email" => $user['email']
     ];
     header('LOCATION: ../index.php');

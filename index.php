@@ -28,7 +28,6 @@
       </div>
     <?php endif; ?>
 
-    
     <div class="welcoming">
       <img src="img/cs.jpg" class="line"> 
       <div class="wel">
@@ -66,7 +65,9 @@
       </div>
 
       <?php endwhile; ?>
-
+      <?php if ($_SESSION['user']['root']): ?>
+        <a href="addtopic.php">Add topic...</a>
+      <?php endif; ?>
     </div>
     <?php if(!$_SESSION['user']): ?>
     <div class="overlay"></div>

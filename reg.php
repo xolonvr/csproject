@@ -29,6 +29,7 @@
             <input type="password" name="repassword" class="pw" placeholder="•••••••" required><br>
             <input type="checkbox" onclick="hidesee()"><span id="password-condition">Show password</span>
             <input type="checkbox" required>I agree with policy agreement<br>
+            <input type="checkbox" value="on" name="root">I am admin<br>
             <button type="submit" name="reg" class="button">Create an account</button><br>
             Already have an account? <a href="./login.php">Log in</a>
             <?php
